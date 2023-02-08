@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ATSApplicationFontsPath</key>
+	<string></string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Poppins-Regular.ttf</string>
+		<string>Poppins-Medium.ttf</string>
+		<string>Poppins-SemiBold.ttf</string>
+		<string>Poppins-Bold.ttf</string>
+	</array>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>Main</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb732711344911939</string>
+				<string>com.googleusercontent.apps.499333115944-vuqbuuk2a146u1n2bv7m2do3jjs1j13p</string>
+			</array>
+		</dict>
+	</array>
+	<key>GIDClientID</key>
+	<string>499333115944-vuqbuuk2a146u1n2bv7m2do3jjs1j13p.apps.googleusercontent.com</string>
+	<key>FacebookAppID</key>
+	<string>732711344911939</string>
+	<key>FacebookClientToken</key>
+	<string>afa1c005681d1ef9c3c43466742a183b</string>
+	<key>FacebookDisplayName</key>
+	<string>Parent App</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbapi</string>
+		<string>fb-messenger-share-api</string>
+	</array>
+</dict>
+</plist>

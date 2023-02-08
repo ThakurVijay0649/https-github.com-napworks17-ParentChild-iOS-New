@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Medium.ttf">
+            <string>Poppins-Medium</string>
+        </array>
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="ChildTableViewCell" selectionStyle="none" indentationWidth="10" reuseIdentifier="childcell" rowHeight="129" id="KGk-i7-Jjw" customClass="ChildTableViewCell" customModule="Parent_App" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="415" height="129"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="415" height="129"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hW5-We-q37">
+                        <rect key="frame" x="10" y="10" width="395" height="102"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NtD-fc-jn2">
+                                <rect key="frame" x="0.0" y="0.0" width="102" height="102"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="102" id="c7M-XP-St0"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vijay Thakur" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WU6-y6-g30">
+                                <rect key="frame" x="117" y="10.000000000000002" width="268" height="22.666666666666671"/>
+                                <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="16"/>
+                                <color key="textColor" red="0.015686274509803921" green="0.035294117647058823" blue="0.46666666666666667" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age: 21" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tcT-qv-lZu">
+                                <rect key="frame" x="117" y="34.666666666666664" width="268" height="19.666666666666664"/>
+                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="14"/>
+                                <color key="textColor" red="0.54509803921568623" green="0.57647058823529407" blue="0.60392156862745094" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XiN-zE-khY">
+                                <rect key="frame" x="227" y="66" width="100" height="26"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="trash" translatesAutoresizingMaskIntoConstraints="NO" id="Wzo-PW-NUP">
+                                        <rect key="frame" x="0.0" y="0.0" width="26" height="26"/>
+                                        <color key="backgroundColor" red="0.71764705880000002" green="0.88235294119999996" blue="0.76862745099999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="26" id="2PQ-e0-9aV"/>
+                                            <constraint firstAttribute="height" constant="26" id="qNC-zx-ZGq"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yda-7L-Jz6">
+                                        <rect key="frame" x="26" y="0.0" width="74" height="26"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Delete">
+                                            <fontDescription key="titleFontDescription" name="Poppins-Medium" family="Poppins" pointSize="14"/>
+                                            <color key="baseForegroundColor" red="0.5450980392" green="0.57647058819999997" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="deleteButtonPressed:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="GXm-tD-pib"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="HOl-bf-KTd"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z1t-1f-lzf">
+                                <rect key="frame" x="117" y="66" width="100" height="26"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pen" translatesAutoresizingMaskIntoConstraints="NO" id="OOm-Mf-ee2">
+                                        <rect key="frame" x="0.0" y="0.0" width="26" height="26"/>
+                                        <color key="backgroundColor" red="0.21960784310000001" green="0.21176470589999999" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="26" id="Oai-iy-1sg"/>
+                                            <constraint firstAttribute="width" constant="26" id="hVn-Dp-K0O"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fzp-vG-6Ej">
+                                        <rect key="frame" x="26" y="0.0" width="74" height="26"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Edit">
+                                            <fontDescription key="titleFontDescription" name="Poppins-Medium" family="Poppins" pointSize="14"/>
+                                            <color key="baseForegroundColor" red="0.54509803921568623" green="0.57647058823529407" blue="0.60392156862745094" alpha="1" colorSpace="calibratedRGB"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="editButtonPressed:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="HN0-bw-raX"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="MEa-yx-58m"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94509803920000002" green="0.98039215690000003" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="XiN-zE-khY" firstAttribute="leading" secondItem="z1t-1f-lzf" secondAttribute="trailing" constant="10" id="4xE-is-9vh"/>
+                            <constraint firstAttribute="trailing" secondItem="WU6-y6-g30" secondAttribute="trailing" constant="10" id="6w4-pe-0mU"/>
+                            <constraint firstAttribute="bottom" secondItem="NtD-fc-jn2" secondAttribute="bottom" id="8Eg-pS-Lki"/>
+                            <constraint firstAttribute="bottom" secondItem="z1t-1f-lzf" secondAttribute="bottom" constant="10" id="CFS-9K-Mcm"/>
+                            <constraint firstItem="NtD-fc-jn2" firstAttribute="leading" secondItem="hW5-We-q37" secondAttribute="leading" id="LaW-Bf-Dxe"/>
+                            <constraint firstItem="WU6-y6-g30" firstAttribute="top" secondItem="hW5-We-q37" secondAttribute="top" constant="10" id="MdY-68-TQk"/>
+                            <constraint firstAttribute="trailing" secondItem="tcT-qv-lZu" secondAttribute="trailing" constant="10" id="NAC-Ki-FlB"/>
+                            <constraint firstItem="tcT-qv-lZu" firstAttribute="leading" secondItem="NtD-fc-jn2" secondAttribute="trailing" constant="15" id="bPp-Rl-1Z7"/>
+                            <constraint firstAttribute="height" constant="102" id="djE-Hi-9iX"/>
+                            <constraint firstItem="WU6-y6-g30" firstAttribute="leading" secondItem="NtD-fc-jn2" secondAttribute="trailing" constant="15" id="gLr-TG-cE9"/>
+                            <constraint firstItem="NtD-fc-jn2" firstAttribute="top" secondItem="hW5-We-q37" secondAttribute="top" id="l4S-KN-adY"/>
+                            <constraint firstAttribute="bottom" secondItem="XiN-zE-khY" secondAttribute="bottom" constant="10" id="nC9-XJ-BtW"/>
+                            <constraint firstItem="tcT-qv-lZu" firstAttribute="top" secondItem="WU6-y6-g30" secondAttribute="bottom" constant="2" id="tty-yJ-RFN"/>
+                            <constraint firstItem="z1t-1f-lzf" firstAttribute="leading" secondItem="NtD-fc-jn2" secondAttribute="trailing" constant="15" id="vbo-9E-5Y1"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="hW5-We-q37" secondAttribute="bottom" constant="10" id="YqI-LR-ulA"/>
+                    <constraint firstItem="hW5-We-q37" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="asu-VP-tCL"/>
+                    <constraint firstItem="hW5-We-q37" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="hD4-Aj-anF"/>
+                    <constraint firstAttribute="trailing" secondItem="hW5-We-q37" secondAttribute="trailing" constant="10" id="u4U-4V-l78"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="childAge" destination="tcT-qv-lZu" id="rUB-0a-ENX"/>
+                <outlet property="childImage" destination="NtD-fc-jn2" id="jVl-Hf-xa1"/>
+                <outlet property="childName" destination="WU6-y6-g30" id="iaT-fO-DLm"/>
+                <outlet property="deleteButton" destination="yda-7L-Jz6" id="cH8-9q-vQR"/>
+                <outlet property="deleteImageView" destination="Wzo-PW-NUP" id="0CS-71-Flb"/>
+                <outlet property="editButton" destination="fzp-vG-6Ej" id="5oH-r4-k3P"/>
+                <outlet property="editImageView" destination="OOm-Mf-ee2" id="gTu-bo-bpe"/>
+                <outlet property="view" destination="hW5-We-q37" id="Eii-wu-d7A"/>
+            </connections>
+            <point key="canvasLocation" x="-130.53435114503816" y="15.845070422535212"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="pen" width="12" height="11"/>
+        <image name="trash" width="10" height="11"/>
+    </resources>
+</document>
